@@ -14,8 +14,8 @@ import sample.SampleHotel;
 @Log4j
 @ContextConfiguration("file:src/main/webapp/WEB-INF/spring/root-context.xml")
 public class SampleTests {
-
-    @Autowired
+	
+	@Autowired
     private Restaruant restaruant;
 
     @Autowired
@@ -33,3 +33,5 @@ public class SampleTests {
         log.info(restaruant);
     }
 }
+
+

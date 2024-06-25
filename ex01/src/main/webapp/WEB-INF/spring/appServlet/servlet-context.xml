@@ -19,10 +19,14 @@
 	<beans:bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
 		<beans:property name="prefix" value="/WEB-INF/views/" />
 		<beans:property name="suffix" value=".jsp" />
+	
+
 	</beans:bean>
 	
 	<context:component-scan base-package="com.myspring.hi" />
+	<context:component-scan base-package="sample.controller" />
+	<context:component-scan base-package="sample" />
 	
 	
-	
+
 </beans:beans>
