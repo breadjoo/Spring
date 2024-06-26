@@ -26,6 +26,7 @@
 	<context:component-scan base-package="com.myspring.hi" />
 	<context:component-scan base-package="sample.controller" />
 	<context:component-scan base-package="sample" />
+	<context:component-scan base-package="com.myspring.test1" />
 	
 	
 

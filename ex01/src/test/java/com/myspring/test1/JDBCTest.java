@@ -14,6 +14,7 @@ public class JDBCTest {
 			e.printStackTrace();
 		}
 	}
+	
 	@Test
 	public void testConnection() {
 		try(Connection conn = DriverManager.getConnection(
@@ -26,5 +27,4 @@ public class JDBCTest {
 			e.printStackTrace();
 		}
 	}
-
 }
