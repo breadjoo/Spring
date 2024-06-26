@@ -66,3 +66,12 @@ Maven Dependencies에서 log4j에 불이 안들어오는것은 모든 runtime을
 parameter값을 안주면 안줬다고 반응하고, 값을 제대로 줘도 log가 안찍히는 지옥에서는 resource클래스 안에 <br>
 logback.xml 을 만들고 log4j.xml의 info로 되어있던 레벨을 전부 debug로 바꾸고 해결되었다.<br>
 하지만 너무 많은 debug가 뜨는것은 아직 불편하다.ㅜㅜ
+
+# Spring Day 3
+
+어제 오류가 많이뜬 만큼 찾아보고 알게된것이 많아서 오늘은 수월했다.
+
+### 문제 1 : mybatis 연동 ( url 오류 )
+
+어제와 같이 시간설정을 하는데 있어서 값을 줄 때 그냥 복사 붙여넣기를 했는데 안됐다. <br>
+xml 파일에서 value값 " " 에 &를 넣을 땐 &amp; 를 붙여주어야 작동했다.<br>
