@@ -40,7 +40,7 @@ server.xml -> source에 sonnector가 있는데 URIEncoding="UTF-8" 을 추가해
 
 
 # Spring Day 2
-
+ 
 오류천국 Spring이었다.
 
 ### 문제 1 : mysql 연동안됨
