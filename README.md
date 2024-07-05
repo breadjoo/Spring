@@ -11,7 +11,7 @@ gradle에서 의존성 추가하는 방법 :<br>
     testImplementation 'org.springframework:spring-test:5.3.23' // 사용 중인 Spring 버전에 맞게 수정<br>
     // JUnit<br>
     testImplementation 'junit:junit:4.13.2'<br>
-방식의 차이 내용은 잘 찾아서 퍼와야한다.<br>
+방식의 차이 내용은 잘 찾아서 퍼와야한다.~!<br>
 
 
 ### 문제2: Log4j 어노테이션 관련 오류<br>
