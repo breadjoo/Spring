@@ -4,7 +4,7 @@
 -> Spring, JUnit의 의존성 추가
 maven 사용시, gradle 사용시 의 차이점을 배움.<br>
 maven에서 의존성 추가하는 방법 : pom.xml 파일에 들어가서 <dependencies> 안에
-   <dependency> 를 추가해야한다.<br><br>
+   <dependency> 를 추가해야한다.<br><br> 
 
 gradle에서 의존성 추가하는 방법 :<br>
     // Spring Test<br>
